@@ -22,12 +22,12 @@ int main()
 
     if (xp <= 1 || dx <= 0)
     {
-        cout << "Помилка: потрібно x > 1 та dx > 0" << endl;
+        cout << "Error: x > 1 and dx > 0 are required" << endl;
         return 1;
     }
 
     cout << fixed;
-    cout << "Таблиця значень функції arctg(x)" << endl;
+    cout << "Table of values of arctg(x)" << endl;
     cout << "---------------------------------------------" << endl;
     cout << "| " << setw(7) << "x"
         << " | " << setw(10) << "arctg(x)"
